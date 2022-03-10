@@ -23,7 +23,7 @@ h6 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 76px;
 }
 
 p {
@@ -47,7 +47,7 @@ p {
   font-family: var(--heading-font-family);
   font-weight: normal;
   line-height: 2px;
-  font-size: 24px;
+  font-size: 19px;
 }
 .btn-branding {
   background: var(--branding-color);
