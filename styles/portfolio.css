@@ -24,6 +24,7 @@ h6 {
 
 h1 {
   font-size: 76px;
+  line-height: 1.5;
 }
 
 h2 {
@@ -52,7 +53,7 @@ p {
 .hero h2 {
   font-family: var(--heading-font-family);
   font-weight: normal;
-  line-height: 2px;
+  line-height: 1.5px;
   font-size: 19px;
 }
 .btn-branding {
@@ -75,4 +76,20 @@ p {
 
 .project-description {
   padding: 120px 60px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+  h2 {
+    font-size: 42px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  .hero {
+  padding: 80px, 20;
 }
