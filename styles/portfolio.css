@@ -42,6 +42,7 @@ p {
   text-align: center;
   padding: 160px, 20;
   margin-top: 176px;
+  height: 70vh;
 }
 
 .hero p {
@@ -77,6 +78,9 @@ p {
 .project-description {
   padding: 120px 60px;
 }
+.img {
+  width: 400px;
+}
 
 @media (max-width: 900px) {
   h1 {
@@ -91,5 +95,7 @@ p {
     text-align: center;
   }
   .hero {
-  padding: 80px, 20;
+    padding: 80px 20px;
+    height: 70%;
+  }
 }
