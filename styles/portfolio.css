@@ -118,12 +118,35 @@ p {
 }
 
 .se {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100px;
+  max-height: 40px;
+}
+
+nav {
+  padding: 20px 0;
+  margin-right: 30px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1b1b1b;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
 }
 
 @media (max-width: 900px) {
@@ -139,8 +162,13 @@ p {
     text-align: center;
   }
   .hero {
-    padding: 80px 20px;
+    padding: 40px;
     height: 70%;
+  }
+
+  .hero h2 {
+    font-size: 16px;
+    line-height: 2;
   }
   .about-content {
     text-align: center;
@@ -158,5 +186,9 @@ p {
 
   .sophia {
     margin-left: 20px;
+  }
+
+  nav a {
+    font-size: 14px;
   }
 }
