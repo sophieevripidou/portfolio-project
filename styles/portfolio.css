@@ -82,6 +82,7 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 12px 24px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .btn-branding-outline {
@@ -91,6 +92,13 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 12px 24px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn-branding-outline:hover {
+  background-color: #326729;
+  border-color: #c1cfbc;
+  transition: ease-in-out;
 }
 
 .btn-branding:hover {
@@ -107,6 +115,15 @@ p {
 
 .sophia {
   width: 400px;
+}
+
+.se {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100px;
 }
 
 @media (max-width: 900px) {
