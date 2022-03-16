@@ -93,6 +93,11 @@ p {
   padding: 12px 24px;
 }
 
+.btn-branding:hover {
+  background-color: #c1cfbc;
+  border-color: #326729;
+  transition: ease-in-out;
+}
 .project-description {
   padding: 120px 60px;
 }
@@ -135,6 +140,6 @@ p {
   }
 
   .sophia {
-    margin-left: 40px;
+    margin-left: 20px;
   }
 }
