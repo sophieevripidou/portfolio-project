@@ -265,8 +265,10 @@ footer .social-links a {
     line-height: 1.5;
   }
 
-  .sophia {
-    margin-left: 20px;
+  .col-lg-6 img.sophia {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
   }
 
   nav a {
