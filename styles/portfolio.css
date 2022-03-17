@@ -221,7 +221,13 @@ footer .social-links a {
 .work {
   width: 70%;
 }
-
+.copyright {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: var(--default-font-family);
+  color: #326729;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -264,7 +270,12 @@ footer .social-links a {
     font-size: 36px;
     line-height: 1.5;
   }
-
+  .about p {
+    font-size: 20px;
+  }
+  .project-description p {
+    font-size: 20px;
+  }
   .col-lg-6 img.sophia {
     display: block;
     margin: 20px auto;
