@@ -45,7 +45,7 @@ p {
   background: var(--secondary-color);
   text-align: center;
   padding: 50px 20px;
-  margin-top: 176px;
+  margin-top: 70px;
   height: 70vh;
 }
 
@@ -123,11 +123,17 @@ p {
 
 .se {
   max-height: 40px;
+  margin: 0;
+  padding-right: 0px;
+  padding: 0;
+}
+.container {
+  margin-left: 0;
 }
 
 nav {
   padding: 20px 0;
-  margin-right: 30px;
+  margin-right: 0;
 }
 
 nav li {
@@ -217,6 +223,10 @@ footer .social-links a {
   font-size: 18px;
   transition: all 100ms ease-in-out;
 }
+p.text-muted {
+  padding: 0px;
+  padding-left: 40px;
+}
 
 .work {
   width: 70%;
@@ -249,8 +259,9 @@ footer .social-links a {
     text-align: center;
   }
   .hero {
-    padding: 40px;
+    padding: 20px;
     height: 70%;
+    margin-top: 0;
   }
 
   .hero h2 {
