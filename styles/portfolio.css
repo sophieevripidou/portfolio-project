@@ -274,7 +274,7 @@ img.instagram {
   .hero {
     padding: 20px;
     height: 70%;
-    margin-top: 80px;
+    margin-top: 130px;
   }
 
   .hero h2 {
@@ -310,5 +310,9 @@ img.instagram {
 
   nav a {
     font-size: 14px;
+  }
+
+  .copyright {
+    margin-top: 290px;
   }
 }
